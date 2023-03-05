@@ -1,13 +1,13 @@
 
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
-import aboutMe from './components/aboutMe';
+import About from './components/aboutMe';
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Hero />
-      <aboutMe />
+      <About />
     </div>
   );
 }
