@@ -14,8 +14,8 @@ const Contact = () =>
                 </h1>
                 </div>
                 <div className='my-4'>
-                    <div>
-                        <input className='p-3 flex w-full rounded-md text-black' type="email" placeholder='Enter message' />
+                    <div className='flex flex-col sm:flex-row items-center justify-between w-full'>
+                        <input className='p-3 flex w-full rounded-md text-black mr-3' type="email" placeholder='Enter message' />
                         <button className='bg-orange-600 w-[200px] text-white rounded-md font-medium my-6 mx-auto md:mx-0 py-3 ml-4 px-4'>
             submit
         </button>
