@@ -18,7 +18,7 @@ const About = () =>{
                 and if you have a suitable opening for me, please let me know 😊.
                
                 </p>
-                <button className='bg-orange-600 w-[200px] text-white rounded-md font-medium my-6 mx-auto py-3'>
+                <button className='bg-orange-600 w-[200px] text-white rounded-md font-medium my-6 mx-auto md:mx-0 py-3'>
             Get started
         </button>
                 </div>
