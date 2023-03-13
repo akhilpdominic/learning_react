@@ -1,6 +1,7 @@
 import React from 'react'
 
 import Etick from '../assets/etick1.png'
+import foodapp from '../assets/foodapp.png'
 
 const Projects = () =>
 {
@@ -27,9 +28,8 @@ const Projects = () =>
                 </div> 
 
                 <div className='w-full shadow-xl bg-slate-300 flex flex-col p-4 my-4 rounded-lg hover:scale-105 hover:bg-sky-300'>
-                <div className='flex py-5 mx-auto justify-center'>
-                    <img classname='py-6 mx-auto bg-white ' src={Etick} alt="" />
-
+                    <div className='flex py-5 mx-auto justify-center scale-50 '>
+                        <img classname='py-6 mx-auto bg-white object-scale-down' src={foodapp} alt="" />
                     </div>
 
                     <div className='flex-none px-3 py-3'>
