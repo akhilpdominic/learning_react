@@ -21,7 +21,7 @@ const Navbar = () => {
                 :
                 <AiOutlineMenu size={20} />}
             </div>
-            <div className={!nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-green-400 bg-slate-600 ease-in-out duration-500' : 'fixed left-[-100%] ease-in-out duration-300'}>
+            <div className={!nav ? 'md:hidden fixed left-0 top-0 w-[60%] h-full border-r border-r-green-400 bg-slate-600 ease-in-out duration-500' : 'fixed left-[-100%] ease-in-out duration-300'}>
             <h1 className='w-full text-3xl m-4 font-bold text-[#00df9a]'>REACT.</h1>
 
                 <ul className='pt-24 uppercase p-4'>
