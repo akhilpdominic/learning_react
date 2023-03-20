@@ -36,9 +36,9 @@ const Projects = () =>
                     
                    
                     <h2 className="font-bold text-3xl font-mono border-b-2 border-cyan-900 mb-4 ">FOODE</h2>
-                <p className='font-mono'>Etick is a bus ticket automation system that
-                eases the process of obtaining tickets on public 
-                buses
+                <p className='font-mono'>FOODE is an application that I have created as a part of Kaleyra hiring hackathon.
+                You could basically enter the details of food items you have consumed and it would simply calculate 
+                the calories you have consumed
                 </p>
                     </div>
                
