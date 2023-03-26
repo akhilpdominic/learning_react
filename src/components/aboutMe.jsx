@@ -1,10 +1,17 @@
 import React from 'react'
 import devimg from '../assets/devimg.png'
+import Particles from "react-tsparticles";
 
 
 const About = () =>{
+
+    
+
+    
     return(
+        
         <div className='bg-white w-full py-16 px-4'>
+         
             <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
                 
                     <img className='w-[300px] mx-auto my-4' src={devimg} alt="/" />
@@ -25,6 +32,20 @@ const About = () =>{
                 
 
             </div>
+
+            <Particles
+        params={{
+          particles: {
+            number: {
+              value: 200,
+              density: {
+                enable: true,
+                value_area: 1000,
+              }
+            },
+          },
+        }}
+      />
         </div>
     )
 }
