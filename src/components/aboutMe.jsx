@@ -1,7 +1,6 @@
 import React from 'react'
 import devimg from '../assets/devimg.png'
-import Particles from "react-tsparticles";
-
+import mouse_scroll from '../assets/scrolldown.png'
 
 const About = () =>{
 
@@ -28,24 +27,16 @@ const About = () =>{
                 <button className='bg-orange-600 w-[200px] text-white rounded-md font-medium my-6 mx-auto md:mx-0 py-3'>
             Get started
         </button>
+        <div className='relative h-32 w-32 justify-center'>
+            <img className="animate-bounce w-6 h-6 absolute bottom-0 left-0" src={mouse_scroll} alt=""/>
+            </div>
                 </div>
                 
-
+                
             </div>
-
-            <Particles
-        params={{
-          particles: {
-            number: {
-              value: 200,
-              density: {
-                enable: true,
-                value_area: 1000,
-              }
-            },
-          },
-        }}
-      />
+            
+            
+            
         </div>
     )
 }

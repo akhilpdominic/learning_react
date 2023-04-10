@@ -4,13 +4,12 @@ import github from '../assets/github.png'
 
 const Navbar = () => {
     const [nav,setnav]=useState(false)
-
     const handleNav=()=>{
         setnav(!nav)
     }
     return (
         <div className='flex justify-between items-center h-24 mx-auto px-5 text-white'>
-           <div className='flex'>
+           
             <h1 className='w-full text-3xl font-bold text-[#00df9a]'>REACT.</h1>
 
             <ul className=''>
@@ -19,7 +18,7 @@ const Navbar = () => {
                 
             </ul>
 
-            </div>
+            
 
             <ul className='hidden md:flex'>
                 <li className='p-4'>Home</li>
