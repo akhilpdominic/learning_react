@@ -9,7 +9,7 @@ const About = () =>{
     
     return(
         
-        <div className='bg-white w-full py-16 px-4'>
+        <div className='bg-gradient-to-r from-cyan-500 to-blue-500 w-full py-16 px-4'>
          
             <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
                 

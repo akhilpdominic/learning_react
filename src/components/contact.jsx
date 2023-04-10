@@ -3,7 +3,10 @@ import React from 'react'
 const Contact = () =>
 {
     return(
-        <div className='w-full py-16 text-white'>
+
+
+        
+        <div className='w-full py-16 text-white '>
             <div>
                <div className='max-width-[1240px] mx-auto grid lg:grid-cols-3'>
                 <div className='lg:col-span-2 '>

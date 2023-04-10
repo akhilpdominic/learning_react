@@ -8,7 +8,7 @@ const Projects = () =>
     return(
         <div className='w-full py-[10rem] px-4 bg-white'>
             <div className='max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8'>
-                <div className='w-full shadow-xl bg-slate-300 flex flex-col p-4 my-4 rounded-lg hover:scale-105 hover:bg-sky-300'>
+                <div className='w-full shadow-xl bg-gradient-to-r from-[#7F7FD5] to-[#86A8E7] flex flex-col p-4 my-4 rounded-lg hover:scale-105 hover:bg-sky-300'>
                 <div className='flex py-5 mx-auto justify-center'>
                     <img classname='py-6 mx-auto bg-white ' src={Etick} alt="" />
 
@@ -27,7 +27,7 @@ const Projects = () =>
                 
                 </div> 
 
-                <div className='w-full shadow-xl bg-slate-300 flex flex-col p-4 my-4 rounded-lg hover:scale-105 hover:bg-sky-300'>
+                <div className='w-full shadow-xl bg-gradient-to-r from-[#7F7FD5] to-[#86A8E7] flex flex-col p-4 my-4 rounded-lg hover:scale-105'>
                     <div className='flex py-5 mx-auto justify-center w-6/12'>
                         <img classname='py-6 mx-auto bg-white' src={foodapp} alt="" />
                     </div>

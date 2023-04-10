@@ -8,7 +8,7 @@ const Hero =() =>
     return (
         <div className="text-white">
         
-        <div className="max-w-[800px] mt-[70px] w-full h-screen mx-auto text-center flex flex-col content-center">
+        <div className="max-w-[800px]  mt-[70px] w-full h-screen mx-auto text-center flex flex-col content-center">
         <p className="text-[#00df9a] font-bold p-2">Hello There... </p>
 
         <p className="text-[#00df9a] font-bold p-2 text-4xl">I am Akhil </p>
